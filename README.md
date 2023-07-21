@@ -3,6 +3,7 @@ About r-spatial-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spatial-feedstock/blob/main/LICENSE.txt)
 
+
 About r-spatial
 ---------------
 
@@ -11,6 +12,7 @@ Home: http://www.stats.ox.ac.uk/pub/MASS4/
 Package license: GPL-2.0-or-later
 
 Summary: Functions for kriging and point pattern analysis.
+
 About r-spatial
 ---------------
 
