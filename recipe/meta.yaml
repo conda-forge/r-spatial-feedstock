@@ -1,4 +1,4 @@
-{% set version = "7.3-17" %}
+{% set version = "7.3-18" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spatial_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spatial/spatial_{{ version }}.tar.gz
-  sha256: f1003ed8cff2a47169a4787c8be46e8c2c501cc06c8b1e5f97bf62507e5f5dd7
+  sha256: cc46693d69745af8ec95b557e7a8ee4e1865df69dc0d25723629fd8e9ea43055
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
